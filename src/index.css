@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100dvh;
+  display: flex;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+    box-shadow: 0 50px 50px -10px rgba(0, 0, 0, 0.5);
+  }
+  50% {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 80px -10px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.float-animation {
+  @apply animate-[float_3s_ease-in-out_infinite];
+}
