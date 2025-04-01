@@ -8,7 +8,7 @@ import Content from "../../assets/text.svg"
 function Home() {
   return (
     <div
-      className="h-full flex-1 p-12 overflow-y-auto flex justify-center items-start xl:items-center"
+      className="h-full flex-1 py-12 px-2 overflow-y-auto flex justify-center items-start xl:items-center"
       style={{
         backgroundImage: `linear-gradient(-45deg, rgba(77, 46, 66, 0.7), rgba(229, 184, 214, 0.4), rgba(77, 46, 66, 0.7)), url(${colorBg})`,
         backgroundSize: "cover",
